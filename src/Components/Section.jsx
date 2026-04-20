@@ -74,8 +74,8 @@ function Section() {
           </div>
         </div>
         <div className='w-[32vw] gap-[3vw] flex flex-row rounded-md'>
-          <button className='w-[19vw] flex h-[3vw] p-[0.7vw] bg-[#FE912F] text-[1.4vw] text-start rounded-md text-white'>Start as Food Vendor <img className='w-[2.4vw] h-[1.3vw] relative left-[1vw] top-[0.3vw]' src={vector} alt="" /></button>
-          <button className='w-[10vw] flex h-[3vw] border-2 border-gray-700 text-[1.4vw] font-[700] items-center justify-center rounded-md text-gray-800'>Learn More</button>
+          <button className='w-[19vw] flex h-[3vw] p-[0.7vw] bg-[#FE912F] text-[1.4vw] text-start rounded-[0.5vw] text-white'>Start as Food Vendor <img className='w-[2.4vw] h-[1.3vw] relative left-[1vw] top-[0.3vw]' src={vector} alt="" /></button>
+          <button className='w-[10vw] flex h-[3vw] border border-gray-500 text-[1.4vw] font-[700] items-center justify-center rounded-[0.5vw] text-gray-800'>Learn More</button>
             </div>
       </div>
     </div>
