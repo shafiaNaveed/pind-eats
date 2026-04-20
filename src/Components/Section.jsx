@@ -13,14 +13,14 @@ import food from '/src/assets/imgs/food.png'
 function Section() {
   return (
     <div>
-       <div className='w-[50vw] flex flex-col h-[40vw] items-center relative top-[15vw] left-[29vw]'>
+       <div className='w-[50vw] flex flex-col h-[43vw] items-center relative top-[15vw] left-[27vw]'>
       <div className='w-[48vw] h-[33vw] flex flex-col items-center gap-[3vw]'>
         <div className='w-[40vw] h-[9vw]'>
           <h1 className='w-[40vw] h-[5vw] text-[3vw] font-[600]'>Ready To Start Your Journey?</h1>
           <h2 className='w-[40vw] h-[4vw] text-[1.2vw] text-center font-[400]'>Join thousands of successful vendors and turn your passion into profit. Choose your path and start earning today!</h2>
         </div>
         <div className='w-[40vw] h-[21vw] gap-[2vw] flex flex-row'>
-          <div className='w-[20vw] flex flex-col p-[0.5vw] h-[21vw] border border-gray-400 rounded-lg'>
+          <div className='w-[20vw] flex flex-col p-[0.5vw] h-[22vw] border border-gray-400 rounded-lg'>
             <div className='w-[19vw] h-[8vw] flex flex-col gap-[0.5vw]'>
               <div className='w-[4vw] h-[4vw] p-[1vw] relative left-[7vw] bg-[#FF91304D] rounded-[60px]'>
                  <img className='w-[2vw] h-[2vw]' src={img4} alt="" />
@@ -42,11 +42,11 @@ function Section() {
                   <img className='w-[2vw] h-[2vw]' src={clock} alt="" />
                   <h3 className='h-[1vw] w-[19vw] text-[0.9vw]'>Flexible working hours</h3>
                 </div>
-                <button className='w-[12vw] gap-[1vw] text-[1.2vw] rounded-full flex text-white h-[2vw] bg-[#FE912F]'> <img className='w-[1.4vw] h-[1.4vw] relative left-[0.2vw] top-[0.2vw]' src={img6} alt="" />Most Popular</button>
+                <button className='w-[12vw] gap-[1vw] text-[1.2vw] rounded-full flex text-white h-[2.3vw] bg-[#FE912F] p-[0.3vw]'> <img className='w-[1.4vw] h-[1.4vw] relative left-[0.2vw] top-[0.2vw]' src={img6} alt="" />Most Popular</button>
             </div>
             </div>
           </div>
-          <div className='w-[20vw] flex flex-col p-[0.5vw] h-[21vw] border border-gray-400 rounded-lg'>
+          <div className='w-[20vw] flex flex-col p-[0.5vw] h-[22vw] border border-gray-400 rounded-lg'>
             <div className='w-[19vw] h-[8vw] flex flex-col gap-[0.5vw]'>
               <div className='w-[4vw] h-[4vw] p-[1vw] relative left-[7vw] bg-[#FF91304D] rounded-[60px]'>
                  <img className='w-[2vw] h-[2vw]' src={img4} alt="" />
@@ -68,7 +68,7 @@ function Section() {
                   <img className='w-[2vw] h-[2vw]' src={clock} alt="" />
                   <h3 className='h-[1vw] w-[19vw] text-[0.9vw]'>Flexible working hours</h3>
                 </div>
-                <button className='w-[12vw] gap-[1.2vw] rounded-full text-[1.2vw] flex text-white h-[2vw] bg-[#CA0000]'> <img className='w-[1.2vw] h-[1.2vw] relative left-[0.4vw] top-[0.2vw]' src={img7} alt="" />High Margins</button>
+                <button className='w-[12vw] gap-[1.2vw] rounded-full text-[1.2vw] flex text-white h-[2.3vw] bg-[#CA0000] p-[0.3vw]'> <img className='w-[1.2vw] h-[1.2vw] relative left-[0.4vw] top-[0.2vw]' src={img7} alt="" />High Margins</button>
             </div>
             </div>
           </div>

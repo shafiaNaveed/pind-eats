@@ -8,7 +8,7 @@ import { FaSearch, FaVideo, FaYoutube } from 'react-icons/fa'
 function Hero() {
   return (
      <div className='w-[100vw] h-[65vw] relative items-center top-[5vw] flex flex-row'>
-        <div className='w-[40vw] h-[34vw] relative top-[2vw] gap-[3vw] flex flex-col left-10'>
+        <div className='w-[40vw] h-[34vw] relative top-[2vw] gap-[3vw] flex flex-col left-[5vw]'>
         <div className='w-[15vw] text-[#FF7900] text-[1.2vw] text-center h-[3vw] bg-[#FFD6B1] rounded-full p-[0.5vw]'>#1     Best  Resturent  Food</div>
     <div className='w-[40vw] h-[14vw] flex flex-col gap-[0.5vw]'>
         <div className='w-[40vw] h-[8vw] text-[2.5vw] font-[800] font-sans'>Your favorite restaurants
