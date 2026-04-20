@@ -28,7 +28,7 @@ your door.</div>
         </div>
     </div>
     <div>
-        <img className='w-[30vw] h-[13vw] relative bottom-[16vw] right-[10vw]' src={arrow} alt="" />
+        <img className='w-[37vw] h-[15vw] relative bottom-[16vw] right-[6vw]' src={arrow} alt="" />
     </div>
     <div className='w-[80vw] h-[65vw] '>
         <div className='flex flex-row'>

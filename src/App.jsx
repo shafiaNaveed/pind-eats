@@ -7,6 +7,7 @@ import Section from './Components/Section'
 import Main from './Components/Main'
 import Offer from './Components/Offer'
 import bg from '/src/assets/imgs/bg.png'
+import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Section/>
       <Main/>
       <Offer/>
+      <Contact/>
     </div>
   )
 }
