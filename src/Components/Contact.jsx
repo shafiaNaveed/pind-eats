@@ -19,20 +19,20 @@ function Contact() {
               <div className='w-[23vw] flex flex-col pt-[4vw] pl-[2vw] h-[22vw] gap-[0.6vw] rounded-[1vw] bg-[#ffd5a6]'>
               <h1 className='text-[1.4vw] font-[500]'>Contact Detail</h1>
               <h2 className='text-[1.4vw]  font-[500]'>Friday</h2>
-              <div className='flex flex-row]'>
-                <MdAddLocation className='h-[2vw]'/>
+              <div className='flex flex-row] gap-[0.3vw]'>
+                <MdAddLocation className='h-[1.7vw]'/>
                 <p className='text-[1vw] font-[500]'>Lakeview Colony, Block C, Pind Town</p>
               </div>
-              <div className='flex flex-row gap-[0.5vw]'>
-                <FaPhone  className='h-[2vw]'/>
+              <div className='flex flex-row gap-[0.3vw]'>
+                <FaPhone  className='h-[1.7vw]'/>
                 <p className='text-[1vw] font-[500]'>Lakeview Colony, Block C, Pind Town</p>
               </div>
-              <div className='flex flex-row gap-[0.5vw]'>
-                <MdMail  className='h-[2vw]'/>
+              <div className='flex flex-row gap-[0.3vw]'>
+                <MdMail  className='h-[1.7vw]'/>
                 <p className='text-[1vw] font-[500]'>support@pindeats.com</p>
               </div>
-              <div className='flex flex-row gap-[0.5vw]'>
-                <FaClock  className='h-[2vw]'/>
+              <div className='flex flex-row gap-[0.3vw]'>
+                <FaClock  className='h-[1.7vw]'/>
                 <p className='text-[1vw] font-[500]'>Mon-sum  12:00Pm-12:00Am</p>
               </div>
             </div>
@@ -69,8 +69,8 @@ function Contact() {
               <button className='bg-black w-[60vw] h-[7vw] rounded-[0.4vw] text-[1.3vw] text-[#FF9130]'>Send Message</button>
           </div>
         </div>
-        <hr className='w-[88vw] h-[1vw] relative top-[2vw] left-[1.8vw]'/>
-        <div className='flex flex-row gap-[2.5vw] relative top-[2vw] left-[2vw]'>
+        <hr className='w-[88vw] h-[1vw] relative top-[2vw] left-[1.5vw]'/>
+        <div className='flex flex-row gap-[2.5vw] relative top-[3vw] left-[2vw]'>
           <div className='w-[20vw] h-[10vw]'>
             <img src={NY} alt="" />
           </div>
