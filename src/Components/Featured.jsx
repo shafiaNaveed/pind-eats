@@ -2,55 +2,60 @@ import React from 'react'
 import img2 from '/src/assets/imgs/img2.png'
 import star from '/src/assets/imgs/star.png'
 import like from '/src/assets/imgs/like.png'
+import mac from '/src/assets/imgs/mac.jpg'
+import sandwich from '/src/assets/imgs/sand.jpg'
+import wings from '/src/assets/imgs/wings.jpg'
+import burger from '/src/assets/imgs/bur.jpg'
+import pasta from '/src/assets/imgs/pasta.jpg'
 
 function Featured() {
   const featured = [
     {
       place_name: "Spice Garden",
-      img: '/src/assets/imgs/mac.jpg',
+      img: mac,
       img_name: "Maccroni",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Burger Town",
-      img: "/src/assets/imgs/bur.jpg",
+      img: burger,
       img_name: "Burger",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "The Ittilain Place",
-      img: '/src/assets/imgs/img2.png',
+      img: img2,
       img_name: "Shawarma",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Sandwich Hub",
-      img: '/src/assets/imgs/sand.jpg',
+      img: sandwich,
       img_name: "Sandwich",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Spicy Town",
-      img: '/src/assets/imgs/wings.jpg',
+      img: wings,
       img_name: "Hot Wings",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Sushi World",
-      img: '/src/assets/imgs/pasta.jpg',
+      img: pasta,
       img_name: "Pasta",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     }
   ]

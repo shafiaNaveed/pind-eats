@@ -1,56 +1,61 @@
 import React from 'react'
-import img3 from '/src/assets/imgs/img3.png'
 import star from '/src/assets/imgs/star.png'
 import like from '/src/assets/imgs/like.png'
+import sweet1 from '/src/assets/imgs/s1.png'
+import sweet2 from '/src/assets/imgs/s2.jpg'
+import sweet3 from '/src/assets/imgs/s3.jpg'
+import sweet4 from '/src/assets/imgs/s4.jpg'
+import sweet5 from '/src/assets/imgs/s5.jpg'
+import sweet6 from '/src/assets/imgs/s6.jpg'
 
 function Gifts() {
   const Gifts = [
     {
       place_name: "Royal Mithai",
-      img: '/src/assets/imgs/s1.png',
+      img: sweet1,
       img_name: "Mithai",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Sweet Delight",
-      img: "/src/assets/imgs/s6.jpg",
+      img: sweet2,
       img_name: "Cake Rusk",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Dessert Hub",
-      img: '/src/assets/imgs/s5.jpg',
+      img: sweet3,
       img_name: "Biscuits",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Heavenly Sweets",
-      img: '/src/assets/imgs/s4.jpg',
+      img: sweet4,
       img_name: "Cream Roll",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Candy Corner",
-      img: '/src/assets/imgs/s2.jpg',
+      img: sweet5,
       img_name: "Choco Cake",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     },
     {
       place_name: "Sweet world",
-      img: '/src/assets/imgs/s3.jpg',
+      img: sweet6,
       img_name: "Laziza Kheer",
-      rating_star_img: '/src/assets/imgs/star.png',
-      like_img: '/src/assets/imgs/like.png',
+      rating_star_img: star,
+      like_img: like,
       add_to_cart_button: "Add Cart"
     }
   ]
