@@ -42,7 +42,7 @@ function Section() {
                   <img className='w-[2vw] h-[2vw]' src={clock} alt="" />
                   <h3 className='h-[1vw] w-[19vw] text-[0.9vw]'>Flexible working hours</h3>
                 </div>
-                <button className='w-[12vw] gap-[1vw] text-[1.2vw] rounded-full flex text-white h-[2.3vw] bg-[#FE912F] p-[0.3vw]'> <img className='w-[1.4vw] h-[1.4vw] relative left-[0.2vw] top-[0.2vw]' src={img6} alt="" />Most Popular</button>
+                <button className='w-[12vw] gap-[1vw] text-[1.2vw] cursor-pointer active:bg-[#e66b00] rounded-full flex text-white h-[2.3vw] bg-[#FE912F] p-[0.3vw]'> <img className='w-[1.4vw] h-[1.4vw] relative left-[0.2vw] top-[0.2vw]' src={img6} alt="" />Most Popular</button>
             </div>
             </div>
           </div>
@@ -68,14 +68,14 @@ function Section() {
                   <img className='w-[2vw] h-[2vw]' src={clock} alt="" />
                   <h3 className='h-[1vw] w-[19vw] text-[0.9vw]'>Flexible working hours</h3>
                 </div>
-                <button className='w-[12vw] gap-[1.2vw] rounded-full text-[1.2vw] flex text-white h-[2.3vw] bg-[#CA0000] p-[0.3vw]'> <img className='w-[1.2vw] h-[1.2vw] relative left-[0.4vw] top-[0.2vw]' src={img7} alt="" />High Margins</button>
+                <button className='w-[12vw] gap-[1.2vw] cursor-pointer active:bg-[#ff6c6c] rounded-full text-[1.2vw] flex text-white h-[2.3vw] bg-[#CA0000] p-[0.3vw]'> <img className='w-[1.2vw] h-[1.2vw] relative left-[0.4vw] top-[0.2vw]' src={img7} alt="" />High Margins</button>
             </div>
             </div>
           </div>
         </div>
         <div className='w-[32vw] gap-[3vw] flex flex-row rounded-md'>
-          <button className='w-[19vw] flex h-[3vw] p-[0.7vw] bg-[#FE912F] text-[1.4vw] text-start rounded-[0.5vw] text-white'>Start as Food Vendor <img className='w-[2.4vw] h-[1.3vw] relative left-[1vw] top-[0.3vw]' src={vector} alt="" /></button>
-          <button className='w-[10vw] flex h-[3vw] border border-gray-500 text-[1.4vw] font-[700] items-center justify-center rounded-[0.5vw] text-gray-800'>Learn More</button>
+          <button className='w-[19vw] flex h-[3vw] p-[0.7vw] bg-[#FE912F] text-[1.4vw] text-start rounded-[0.5vw] text-white cursor-pointer active:bg-[#e66b00] '>Start as Food Vendor <img className='w-[2.4vw] h-[1.3vw] relative left-[1vw] top-[0.3vw]' src={vector} alt="" /></button>
+          <button className='w-[10vw] flex h-[3vw] border border-gray-500 text-[1.4vw] font-[700] items-center justify-center rounded-[0.5vw] cursor-pointer active:scale-90 text-gray-800'>Learn More</button>
             </div>
       </div>
     </div>

@@ -37,8 +37,8 @@ function Footer() {
             <div className='flex flex-col w-[26vw]'>
                 <h1 className='text-[1.8vw] leading-[100%] tracking-[2%] w-[22vw] relative top-[8vw] font-[700]'>Subscribe for exclusive deals and updates</h1>
                 <div className=' w-[26vw] h-[3vw] flex flex-row relative top-[9vw] gap-[1.2vw]'>
-                    <input className='w-[15vw] pl-[1vw] placeholder-[white] rounded-[0.4vw] bg-black text-[1.2vw]' type="text" placeholder='Enter your e-mail' />
-                    <button className='w-[9vw] text-[1.2vw] rounded-[0.4vw] text-start pl-[1vw] text-white bg-[#FE912F]'>Subscribe</button>
+                    <input className='w-[15vw] pl-[1vw] focus:outline-none focus:ring-[#ffb778] focus:ring-2 text-white placeholder-[white] rounded-[0.4vw] bg-black text-[1.2vw]' type="text" placeholder='Enter your e-mail' />
+                    <button className='w-[9vw] text-[1.2vw] active:scale-90 cursor-pointer active:bg-[#ffb778] rounded-[0.4vw] text-start pl-[1vw] text-white bg-[#FE912F]'>Subscribe</button>
                 </div>
             </div>
         </div>

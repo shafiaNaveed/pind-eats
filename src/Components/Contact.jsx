@@ -45,26 +45,26 @@ function Contact() {
             <div className='flex flex-row w-[60vw] h-[5vw] gap-[1.8vw]'>
               <div className='flex flex-col w-[29vw] h-[5vw]'>
                 <lable className='text-[1.3vw] text-white font-[500]'>First Name</lable>
-                <input className='h-[3vw] rounded-[0.3vw] p-[1vw] text-[1.3vw] placeholder-[black] font-[500] bg-[#ffd5a6]' type="text" placeholder='John' />
+                <input className='h-[3vw] rounded-[0.3vw] p-[1vw] text-[1.3vw] focus:outline-none focus:ring-orange-600 focus:ring-2 placeholder-[black] font-[500] bg-[#ffd5a6]' type="text" placeholder='John' />
               </div>
               <div className='flex flex-col w-[29vw] h-[5vw]'>
                 <lable className='text-[1.3vw] text-white font-[500]'>Last Name</lable>
-                <input className='h-[3vw] rounded-[0.3vw] p-[1vw] text-[1.3vw] placeholder-[black] font-[500] bg-[#ffd5a6]' type="text" placeholder='Adus' />
+                <input className='h-[3vw] rounded-[0.3vw] p-[1vw] text-[1.3vw] focus:outline-none focus:ring-orange-600 focus:ring-2 placeholder-[black] font-[500] bg-[#ffd5a6]' type="text" placeholder='Adus' />
               </div>
             </div>
             <div className='flex flex-row w-[60vw] h-[5vw] gap-[1.8vw]'>
               <div className='flex flex-col w-[29vw] h-[5vw]'>
                 <lable className='text-[1.3vw] text-white font-[500]'>Email</lable>
-                <input className='h-[3vw] rounded-[0.3vw] p-[1vw] text-[1.3vw] placeholder-[black] font-[500] bg-[#ffd5a6]' type="text" placeholder='jhonadus@gmail.com' />
+                <input className='h-[3vw] rounded-[0.3vw] p-[1vw] text-[1.3vw] focus:outline-none focus:ring-orange-600 focus:ring-2 placeholder-[black] font-[500] bg-[#ffd5a6]' type="text" placeholder='jhonadus@gmail.com' />
               </div>
               <div className='flex flex-col w-[29vw] h-[5vw]'>
                 <lable className='text-[1.3vw] text-white font-[500]'>Phone Number</lable>
-                  <input className='h-[3vw] rounded-[0.3vw] text-[1.3vw] p-[1vw] placeholder-[black] w-[29vw] font-[500] bg-[#ffd5a6]' type="text" placeholder='+0123 456 7890' />
+                  <input className='h-[3vw] rounded-[0.3vw] text-[1.3vw] p-[1vw] focus:outline-none focus:ring-orange-600 focus:ring-2 placeholder-[black] w-[29vw] font-[500] bg-[#ffd5a6]' type="text" placeholder='+0123 456 7890' />
               </div>
             </div>
             <div className='flex flex-col w-[60vw] h-[12vw]'>
                 <lable className='text-[1.3vw] text-white font-[500]'>Message</lable>
-                  <input className='h-[10vw] rounded-[0.3vw] text-[1.3vw] placeholder-[black] w-[60vw] font-[500] bg-[#ffd5a6]' type="text" placeholder='Write your message' />
+                  <input className='h-[10vw] rounded-[0.3vw] text-[1.3vw] focus:outline-none focus:ring-orange-600 focus:ring-2 placeholder-[black] w-[60vw] font-[500] bg-[#ffd5a6]' type="text" placeholder='Write your message' />
               </div>
               <button className='bg-black w-[60vw] h-[7vw] rounded-[0.4vw] text-[1.3vw] text-[#FF9130]'>Send Message</button>
           </div>

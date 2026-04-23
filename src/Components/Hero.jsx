@@ -18,12 +18,12 @@ your door.</div>
     </div>
         <div className='flex flex-row w-[40vw] h-[4vw] rounded-full border gap-[2.3vw] border-gray-300 shadow shadow-gray-400'>
             <FaSearch className='relative top-[1.2vw] text-gray-600 text-[1.6vw] left-[1.6vw]'/>
-            <input className='w-[15vw] bg-transparent text-gray-600 text-[1.4vw] font-[500]' type="text" value="Enter delivery address" />
-            <button className='w-[10vw] h-[3vw] bg-orange-500 left-[8vw] rounded-full text-white text-[1.3vw] relative top-[0.5vw]'>Find Food</button>
+            <input className='w-[15vw] bg-transparent text-gray-600 text-[1.4vw] font-[500] focus:outline-none' type="text" placeholder="Enter delivery address" />
+            <button className='w-[10vw] h-[3vw] bg-orange-500 left-[8vw] rounded-full text-white text-[1.3vw] relative top-[0.5vw] hover:scale-95 active:bg-white transition-all duration-300 active:text-[#FE912F]'>Find Food</button>
         </div>
         <div className='flex flex-row gap-[2vw]'>
-            <button className='w-[10vw] h-[3vw] bg-orange-500 rounded-full text-[1.3vw]'>Buy Now</button>
-        <button className='w-[13vw] h-[3vw] p-[0.4vw] text-[#FE912F] text-start border border-[#FE912F] rounded-full text-[1.3vw]'>Watch Demo</button>
+            <button className='w-[10vw] h-[3vw] bg-orange-500 rounded-full text-[1.3vw] hover:scale-95 active:bg-white transition-all duration-300 active:text-[#FE912F]'>Buy Now</button>
+        <button className='w-[13vw] h-[3vw] p-[0.4vw] text-[#FE912F] text-start border border-[#FE912F] hover:scale-95 active:bg-[#FE912F] transition-all duration-300 active:text-white rounded-full text-[1.3vw]'>Watch Demo</button>
         <FaYoutube className='text-[#FE912F] text-[2vw] rounded-[50px] relative right-[5vw] top-[0.5vw]'/>
         </div>
     </div>

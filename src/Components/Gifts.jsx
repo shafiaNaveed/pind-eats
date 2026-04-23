@@ -66,8 +66,8 @@ function Gifts() {
     </div>
     <div className='flex flex-row w-[100vw] gap-[1.6vw] h-[22vw]'>
             {Gifts.map((item, index) =>(
-              <div className='w-[15vw] h-[19vw] gap-[0.3vw] rounded-md border border-gray-400 flex-col flex'>
-              <img className='h-[12vw] rounded-[0.3vw]' src={item.img} alt="" />
+              <div className='w-[15vw] h-[19vw] gap-[0.3vw] transition-all duration-300 hover:scale-105 rounded-md border border-gray-400 flex-col flex'>
+              <img className='h-[12vw] cursor-pointer rounded-[0.3vw]' src={item.img} alt="" />
               <div className='flex flex-col w-[15vw] h-[4vw]'>
                 <h1 className='text-[1.3vw] font-[500]'>{item.place_name}</h1>
                 <h3 className='text-[1vw] font-[400]'>{item.img_name}</h3>
@@ -75,7 +75,7 @@ function Gifts() {
               <div className='flex flex-row w-[15vw] pt-[0.5vw] h-[2.2vw]'>
                 <img className='w-[7vw] h-[1.3vw]' src={item.rating_star_img} alt="" />
                 <img className='w-[1.6vw] h-[0.9vw] relative top-[0.3vw] left-[1vw]' src={item.like_img} alt="" />
-                <button className='bg-[#FE912F] w-[4.5vw] h-[1.4vw] rounded-full relative left-[1.4vw] text-[0.8vw]'>{item.add_to_cart_button}</button>
+                <button className='bg-[#FE912F] w-[4.5vw] active:scale-90 cursor-pointer active:bg-[#ffb778] h-[1.4vw] rounded-full relative left-[1.4vw] text-[0.8vw]'>{item.add_to_cart_button}</button>
               </div>
             </div>
             ))}
