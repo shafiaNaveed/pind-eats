@@ -67,7 +67,7 @@ function Gifts() {
     <div className='flex flex-row w-[100vw] gap-[1.6vw] h-[22vw]'>
             {Gifts.map((item, index) =>(
               <div className='w-[15vw] h-[19vw] gap-[0.3vw] rounded-md border border-gray-400 flex-col flex'>
-              <img className='h-[12vw]' src={item.img} alt="" />
+              <img className='h-[12vw] rounded-[0.3vw]' src={item.img} alt="" />
               <div className='flex flex-col w-[15vw] h-[4vw]'>
                 <h1 className='text-[1.3vw] font-[500]'>{item.place_name}</h1>
                 <h3 className='text-[1vw] font-[400]'>{item.img_name}</h3>
